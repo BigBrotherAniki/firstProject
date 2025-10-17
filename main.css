@@ -1,0 +1,76 @@
+html, body {
+      height: 100%;
+      margin: 0;
+      background-color: #e69976;
+      font-family: Arial, sans-serif;
+    }
+
+    .fixed-container {
+      position: fixed;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    img {
+      width: 300px;      /* fixed size so buttons don't move */
+      height: 400px;
+      object-fit: cover;
+      border: 2px solid #000;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .name-display {
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 10px;
+      font-size: 18px;
+      cursor: pointer;
+      border-radius: 6px;
+      border: none;
+      transition: transform 0.1s ease;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+    }
+
+    #smashBtn {
+      background-color: #e63946;
+      color: white;
+    }
+
+    #passBtn {
+      background-color: #457b9d;
+      color: white;
+    }
+
+    #counter {
+      margin-top: 15px;
+      font-size: 18px;
+    }
+
+    #scoreboard {
+  position: fixed;
+      top: 80%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+    }
+
+    #scoreboard ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    #scoreboard li {
+      font-size: 18px;
+      margin: 4px 0;
+    }
