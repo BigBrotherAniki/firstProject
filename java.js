@@ -4,8 +4,25 @@ const images = [
       "mari_image3.jpg",
       "rei_image4.jpg"
     ];
-
-    const names = [
+    function submitVote() {
+if (document.getElementById("bestGirl_Vote").value.toLowerCase() === "asuka") {
+  document.getElementById("votingresult").innerText = "Agreed";
+} 
+else if (document.getElementById("bestGirl_Vote").value.toLowerCase() === "misato") {
+  document.getElementById("votingresult").innerText = "Agreed";
+}
+else if (document.getElementById("bestGirl_Vote").value.toLowerCase() === "mari") {
+  document.getElementById("votingresult").innerText = "Agreed";
+}
+else if (document.getElementById("bestGirl_Vote").value.toLowerCase() === "rei") {
+  document.getElementById("votingresult").innerText = "Agreed";
+}
+else {
+  document.getElementById("votingresult").innerText = "Incorrect, try again!";
+}
+}
+  
+  const names = [
       "Asuka",
       "Misato",
       "Mari",

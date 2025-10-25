@@ -5,11 +5,16 @@
   <title>Smash or Pass</title>
   <link rel="stylesheet" href="main.css">
   <link rel="icon" href="hd-asuka-langley-neon-genesis-evangelion-png-735811696437361lotj64nefl-removebg-preview.png">
-
-  
  </head>
 <body>
-  <div class="fixed-container">
+  <div id ="votingSection"> 
+  <input type="text" id="bestGirl_Vote" placeholder="Best Girl?">
+  <button onclick="submitVote()">Vote</button>
+  <br>
+  <p id="votingresult">Vote and see</p>
+  </div>
+
+ <div class="fixed-container">
     <img id="mainImage" src="asuka_image1.jpg" alt="Image" onerror="this.src='fallback.jpg'">
     <div class="name-display" id="charName">Asuka</div>
  

@@ -5,14 +5,32 @@ html, body {
       font-family: Arial, sans-serif;
     }
 
+    #votingSection {
+      position: fixed;
+      top: 10%;
+      left: 20%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 2px solid #000;
+      text-align: center;
+      background-color: bisque;
+    }
+
+    #votingresult {
+      font-size: 18px;
+      margin-top: 10px;
+      
+    }
+
     .fixed-container {
+      text-align: center;
       position: fixed;
       top: 40%;
       left: 50%;
       transform: translate(-50%, -50%);
-      text-align: center;
     }
-
     img {
       width: 300px;      /* fixed size so buttons don't move */
       height: 400px;
@@ -24,6 +42,7 @@ html, body {
     }
 
     .name-display {
+    
       font-size: 22px;
       font-weight: bold;
       margin-bottom: 15px;
